@@ -1,0 +1,16 @@
+
+<dependencies>
+  <iosPods>
+    <iosPod name="PayTabsSDK" version="~> 6.1.0" bitcodeEnabled="true"
+            minTargetSdk="10.0" addToAllTargets="false" />
+  </iosPods>
+  <androidPackages>
+      <androidPackage spec="cards.pay:paycardsrecognizer:1.1.0">
+          <repositories>
+                <repository>http://pay.cards/maven</repository>
+          </repositories>
+      </androidPackage>
+      <androidPackage spec="com.paytabs:payment-sdk:6.1.2">
+      </androidPackage>
+  </androidPackages>
+</dependencies>
